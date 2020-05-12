@@ -1,14 +1,13 @@
 package application;
 
-import boardlayer.Position;
+import boardlayer.Board;
 
 public class Program {
 
 	public static void main(String[] args) {
 		// CHESS GAME 
 		
-		Position p = new Position(1, 17);
-		System.out.println(p);
+		Board b = new Board(8, 8);
 		
 	}
 
